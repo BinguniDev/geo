@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geodreieck-Verleih der Klasse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <h1 class="logo">Geodreieck-Verleih</h1>
+            <nav class="main-nav">
+                <button class="nav-toggle" aria-label="Navigation umschalten">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#hero">Start</a></li>
+                    <li><a href="#how-it-works">So funktioniert's</a></li>
+                    <li><a href="#available-triangles">Verfügbare</a></li>
+                    <li><a href="#request">Anfragen</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#about">Über uns</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <h2>Dein Geodreieck ist nur einen Klick entfernt!</h2>
+                <p>Nie wieder ohne Geodreieck im Matheunterricht! Unser einfacher Verleihservice in der Klasse hilft dir aus der Patsche.</p>
+                <a href="#request" class="btn primary-btn">Jetzt Geodreieck anfragen!</a>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="info-section">
+            <div class="container">
+                <h3>So funktioniert unser Verleih</h3>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <i class="icon">🔍</i>
+                        <h4>1. Suchen & Finden</h4>
+                        <p>Schau dir unsere Liste der verfügbaren Geodreiecke an.</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="icon">✍️</i>
+                        <h4>2. Anfrage stellen</h4>
+                        <p>Fülle das kurze Formular aus und sag uns, wann du es brauchst.</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="icon">🤝</i>
+                        <h4>3. Abholen & Nutzen</h4>
+                        <p>Hol dein Geodreieck ab, nutze es und bring es pünktlich zurück.</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="icon">♻️</i>
+                        <h4>4. Zurückgeben</h4>
+                        <p>Nach Gebrauch einfach bei deinem Freund zurückgeben, damit andere es auch nutzen können.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="available-triangles" class="card-section">
+            <div class="container">
+                <h3>Unsere aktuellen Geodreiecke</h3>
+                <p>Hier siehst du, welche Geodreiecke gerade zur Verfügung stehen.</p>
+                <div class="triangle-grid">
+                    <div class="triangle-card">
+                        <img src="https://via.placeholder.com/200x150?text=Geodreieck+1" alt="Standard Geodreieck">
+                        <h4>Standard Geodreieck</h4>
+                        <p>Das klassische Geodreieck für alle Fälle. Robuste Ausführung.</p>
+                        <span class="status available">Verfügbar</span>
+                    </div>
+                    <div class="triangle-card">
+                        <img src="https://via.placeholder.com/200x150?text=Geodreieck+2" alt="Flexibles Geodreieck">
+                        <h4>Flexibles Geodreieck</h4>
+                        <p>Biegsam und bruchsicher – ideal für den Schulranzen.</p>
+                        <span class="status available">Verfügbar</span>
+                    </div>
+                    <div class="triangle-card">
+                        <img src="https://via.placeholder.com/200x150?text=Geodreieck+3" alt="Großes Geodreieck">
+                        <h4>Großes Geodreieck</h4>
+                        <p>Für präzises Zeichnen auf größeren Flächen. Mit Griff.</p>
+                        <span class="status unavailable">Verliehen</span>
+                    </div>
+                     <div class="triangle-card">
+                        <img src="https://via.placeholder.com/200x150?text=Geodreieck+4" alt="Transparentes Geodreieck">
+                        <h4>Transparentes Geodreieck</h4>
+                        <p>Durchsichtig für bessere Sichtbarkeit der Linien darunter.</p>
+                        <span class="status available">Verfügbar</span>
+                    </div>
+                    <div class="triangle-card">
+                        <img src="https://via.placeholder.com/200x150?text=Geodreieck+5" alt="Geodreieck mit Winkelmesser">
+                        <h4>Geodreieck mit Winkelmesser</h4>
+                        <p>Kombiniertes Design für schnelle Winkelmessungen.</p>
+                        <span class="status unavailable">Verliehen</span>
+                    </div>
+                    <div class="triangle-card">
+                        <img src="https://via.placeholder.com/200x150?text=Geodreieck+6" alt="Kompaktes Mini-Geodreieck">
+                        <h4>Kompaktes Mini-Geodreieck</h4>
+                        <p>Passt in jedes Federmäppchen, ideal für unterwegs.</p>
+                        <span class="status available">Verfügbar</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="request" class="form-section">
+            <div class="container">
+                <h3>Geodreieck anfragen</h3>
+                <p>Fülle das Formular aus, um ein Geodreieck zu reservieren. Dein Freund wird sich dann bei dir melden!</p>
+                <form id="requestForm" class="request-form">
+                    <div class="form-group">
+                        <label for="name">Dein Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="Max Mustermann">
+                        <div class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Deine E-Mail (optional, für Rückmeldung):</label>
+                        <input type="email" id="email" name="email" placeholder="max.mustermann@schule.de">
+                        <div class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="triangle-type">Gewünschtes Geodreieck (optional):</label>
+                        <select id="triangle-type" name="triangle-type">
+                            <option value="">Beliebiges Geodreieck</option>
+                            <option value="standard">Standard Geodreieck</option>
+                            <option value="flexible">Flexibles Geodreieck</option>
+                            <option value="large">Großes Geodreieck</option>
+                            <option value="transparent">Transparentes Geodreieck</option>
+                            <option value="protractor">Geodreieck mit Winkelmesser</option>
+                            <option value="compact">Kompaktes Mini-Geodreieck</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date-needed">Benötigt am:</label>
+                        <input type="date" id="date-needed" name="date-needed" required>
+                        <div class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="time-needed">Uhrzeit (optional):</label>
+                        <input type="time" id="time-needed" name="time-needed">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Nachricht an deinen Freund (optional):</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Zusätzliche Infos oder Fragen..."></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Anfrage senden</button>
+                    <p id="form-success-message" class="success-message" style="display: none;">Deine Anfrage wurde erfolgreich gesendet!</p>
+                </form>
+            </div>
+        </section>
+
+        <section id="faq" class="faq-section">
+            <div class="container">
+                <h3>Häufig gestellte Fragen (FAQ)</h3>
+                <div class="faq-item">
+                    <h4 class="faq-question">Wie lange darf ich ein Geodreieck ausleihen?</h4>
+                    <div class="faq-answer">
+                        <p>Normalerweise für einen Schultag. Wenn du es länger brauchst, sprich bitte mit deinem Freund.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-question">Was passiert, wenn ich das Geodreieck verliere oder beschädige?</h4>
+                    <div class="faq-answer">
+                        <p>Bitte gib deinem Freund Bescheid. Wir finden sicher eine Lösung. Im schlimmsten Fall müsstest du für Ersatz sorgen.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-question">Kann ich auch mehrere Geodreiecke gleichzeitig ausleihen?</h4>
+                    <div class="faq-answer">
+                        <p>Das hängt von der Verfügbarkeit ab. Sprich uns einfach an!</p>
+                    </div>
+                </div>
+                 <div class="faq-item">
+                    <h4 class="faq-question">Muss ich etwas dafür bezahlen?</h4>
+                    <div class="faq-answer">
+                        <p>Nein, der Geodreieck-Verleih ist ein kostenloser Service für deine Mitschüler!</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-question">Wie und wann erhalte ich das Geodreieck nach der Anfrage?</h4>
+                    <div class="faq-answer">
+                        <p>Dein Freund wird sich nach deiner Anfrage bei dir melden und einen Übergabeort und -zeitpunkt in der Schule mit dir vereinbaren. In der Regel ist das in der nächsten Pause oder nach dem Unterricht.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h3>Über den Geodreieck-Verleih</h3>
+                <p>Dieser Verleih wurde ins Leben gerufen, um Mitschülern schnell und unkompliziert zu helfen, wenn sie ihr Geodreieck vergessen oder verloren haben. Dein Freund, [Name deines Freundes], organisiert und verwaltet die Geodreiecke. Wir hoffen, dass dieser Service vielen von euch den Matheunterricht erleichtert!</p>
+                <p>Für Fragen oder Anregungen kannst du [Name deines Freundes] jederzeit ansprechen.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <p>&copy; 2025 Geodreieck-Verleih. Alle Rechte vorbehalten.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="Facebook">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
